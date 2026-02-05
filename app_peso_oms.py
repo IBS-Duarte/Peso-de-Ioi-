@@ -21,6 +21,7 @@ medicoes_reais = [
     {"data_medicao": date(2025, 11, 11), "peso_kg": 5.756},
     {"data_medicao": date(2025, 11, 27), "peso_kg": 5.920},
     {"data_medicao": date(2025, 12, 9), "peso_kg": 6.090},
+    {"data_medicao": date(2026, 1, 19), "peso_kg": 6.578},
 ]
 
 # Curvas OMS (mantidas do exemplo anterior)
@@ -124,4 +125,5 @@ st.info("""
 st.markdown("---")
 
 st.markdown("*Dados baseados nos padrões WHO Child Growth Standards (OMS, 2006)*")
+
 
